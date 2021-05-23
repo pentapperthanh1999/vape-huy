@@ -1,0 +1,373 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #666;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+/*General*/
+.title {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: black;
+}
+.small-title {
+	font-size: 2rem;
+	color: black;
+}
+.big-title {
+	font-size: 5rem;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+
+.hr-title {
+	max-width: 15%;
+	border: 1px solid #c29168;
+}
+.content a {
+	text-decoration: none;
+}
+.content h2:hover {
+	color: #c29168;
+}
+
+.text-content {
+	font-size: 1.5rem;
+}
+
+.small-text-content {
+	font-size: 1rem;
+	font-weight: 300;
+}
+.product-image {
+	position: relative;
+}
+.product-image img {
+	background-size: cover;
+	width: 100%;
+}
+
+.product-image .product-hover {
+	transition: .5s ease;
+	opacity: 0;
+	align-items: center;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	display: flex;
+    justify-content: center;
+}
+.product-image .product-hover:hover {
+	opacity: 1;
+}
+.product-hover-item {
+	margin:10px;
+}
+.product-hover-item i:hover {
+	color: #fff;
+	background-color: #c29168;
+}
+.product-hover i {
+	border: 1px solid #c3936a;
+
+	padding: 15px;
+	font-size: 24px;
+
+}
+
+/*About-Us*/
+.about-us {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.about-us .image-about-us {
+	text-align: center;
+	position: relative;
+}
+
+.about-us .image-about-us:before {
+	content: "";
+    background-color: #f9f4f0;
+    position: absolute;
+    z-index: -1;
+    height: 30%;
+    width: 100%;
+    bottom: 40%;
+    right: 0;
+    left: 0;
+}
+
+.about-us .image-about-us {
+	width: 100%;
+}
+.about-us .content {
+	padding: 50px;
+}
+
+
+.about-us .content .social {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+
+.about-us .content .social ul {
+	 list-style: none;
+	 display: flex;
+}
+
+.about-us .content .social li {
+	padding: 0 10px;
+}
+.about-us .content .social a {
+	text-decoration: none;
+}
+
+.about-us .content .social i {
+	 font-size: 1.5em;
+	 opacity: 0.7	;
+}
+
+.button-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+a.btn.btn-get-started, a.btn.btn-learn-more {
+	font-weight: 700
+}
+.button-group .btn-get-started, .button-group .btn-learn-more {
+	border: 1px solid #c29168;
+	padding: 10px 30px;
+}
+
+.button-group .btn-get-started {
+	background-color: #c29168;
+}
+
+.button-group .btn-get-started {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.button-group .btn-learn-more {
+	color: #313440;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.button-group .btn-get-started:hover {
+	background-color: #313469;
+	transition: 0.5s;
+}
+
+.button-group .btn-learn-more:hover{
+	background-color: #313469;
+	transition: 0.5s;
+	color: #fff;
+}
+
+/*Sale OFF*/
+
+.sale-off {
+	width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-sale-off img{
+	width: 100%;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+.content-sale-off {
+	padding: 80px 50px;
+}
+
+
+.best-seller-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+hr.hr-title.hr-best-seller {
+	max-width: 70%;
+}
+.product-item {
+	margin-bottom: 20px;
+
+}
+.product-item .product-content a {
+	text-decoration: none;
+	color: #3e414c;
+}
+
+.product-item .product-content h2 {
+	font-size: 24px;
+
+}
+.product-item .product-content h2:hover {
+	color: #c3936b;
+	transition: 0.5s;
+}
+
+.product-item .product-content h3 {
+	color: #c4966e;
+}
+
+.product-content .product-price span {
+	text-decoration-line: line-through;
+	font-size: 20px;
+}
+
+.product-content .product-start span {
+	
+}
+.product-start .checked {
+	color: yellow; 
+}
+
+
+.slick-slider .slick-list .slick-slide {
+	padding: 0 15px;
+}
+
+/*Category*/
+.categories {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.banner-category img{
+	background-size: cover;
+	width: 100%;
+}
+
+.item-list-post-category {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-image {
+	max-width: 150px;
+	margin-right: 20px;
+}
+.item-image img {
+	width: 100%;
+}
+
+.categories .hr-category {
+	max-width: 20%;
+}
+
+/* Customer */
+.customer-says {
+	background-color: #f9f4f0;
+}
+
+.hr-customer {
+	max-width: 35%;
+}
+
+.customer-content {
+	padding: 20px;
+}
+
+.text-content-customer:before {
+	content: "\f10d";
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+    top: -7px;
+    position: relative;
+    margin-right: 7px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.text-content-customer:after {
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    top: -7px;
+    position: relative;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.customer-says .customer-name {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+.item-customer {
+	overflow-x: initial;
+}
+ .item-customer .slick-dots {
+	right: 41%;
+	margin: 20px 0;
+}
+
+.item-customer .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 15px;
+    line-height: 20px;
+    color: orange;
+}
+
+.slick-dots li.slick-active button:before {
+    color:orange !important;
+}
+
+.item-customer .people {
+	margin-bottom: 20px;
+}
+
+/*We Have Achieved*/
+
+.hr-achieved {
+	max-width: 45%;
+}
+.item-achieved-static {
+	text-align: center;
+}
+
+.item-achieved-static img {
+	margin-top: 20px;
+}
+.wrapper-ias {
+	border: 3px solid #faf8f9;
+	padding: 25px 5px;
+}
+.number-counterup {
+	font-size: 45px;
+	font-family: Saira,sans-serif;
+	color: #313440;
+	font-weight: 700;
+    padding-top: 14px;
+}
+
+.title-counterup {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #666;
+	font-family: Roboto,sans-serif;
+	margin: 0;
+	padding-top: 20px;
+}
