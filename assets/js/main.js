@@ -7,6 +7,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 4000,
         arrows: false,
+        lazyLoad:true,
         dots: false,
         pauseOnHover: false,
         responsive: [{
@@ -30,7 +31,19 @@ $(document).ready(function(){
         autoplaySpeed: 5000,
         arrows: false,
         dots: true,
+        lazyLoad:true,
         pauseOnHover: false,
+    })
+    $('.slick-top-brands').slick({
+        infinite: false,
+        lazyLoad:true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false
     })
 })
 

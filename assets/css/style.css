@@ -32,6 +32,9 @@
 	max-width: 15%;
 	border: 1px solid #c29168;
 }
+.no-pd {
+	padding: 0;
+}
 .content a {
 	text-decoration: none;
 }
@@ -216,7 +219,7 @@ hr.hr-title.hr-best-seller {
 
 .product-item .product-content h2 {
 	font-size: 24px;
-
+	padding-top: 20px;
 }
 .product-item .product-content h2:hover {
 	color: #c3936b;
@@ -370,4 +373,55 @@ hr.hr-title.hr-best-seller {
 	font-family: Roboto,sans-serif;
 	margin: 0;
 	padding-top: 20px;
+}
+
+
+.special-offers {
+}
+.banner-sale-off {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.banner-sale-off img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content-banner-sale-off {
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+	margin: 20px;
+}
+
+.content-banner-sale-off h2 {
+	font-size: 36px;
+    font-family: Saira,sans-serif;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    padding-bottom: 18px;
+
+}
+
+.content-banner-sale-off p {
+	color: #fff;
+}
+
+.wrapper-special-offers {
+	height: 400px;
+}
+
+.slick-item-top-brands {
+	background-color: #f6f6f6;
+	margin: 15px;
+	min-height: 210px;
+	width: 100%;
+}
+
+.slick-item-top-brands img {
+	width: 100%;
 }
